@@ -7,7 +7,7 @@ int main() {
 	cin >> a;
 	cout << "Introducir numero b\n";
 	cin >> b;
-	cout << "Tu resultado es = " << a / b << "\n";
+	cout << "Tu resultado es = " << a / b << " ,Tu residuo es: " << (a%b) << "\n";
 	return 0;
 
 }
