@@ -5,9 +5,9 @@ int main (){
 
   int x, y, z = 0;
    cout << "Suma de los dos numeros entre dos numeros" << endl;
-   cout << "Introduce el primer numero\n";
+   cout << "Introduce el numero mas pequeño\n";
    cin >> x;
-   cout << "Introduce el segundo numero\n";
+   cout << "Introduce el numero mas grande\n";
    cin >> y;
 
   while (x <= y-1) {
