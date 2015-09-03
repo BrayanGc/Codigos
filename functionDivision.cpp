@@ -12,5 +12,6 @@ int main (){
   cout << "Introduce numero x, y\n";
   cin >> x;
   cin >> y;
-  cout << division (x, y) << endl;
+  cout << division (x, y)<< "\n";
+  cout << "Tu residuo es: " << ( x%y) << endl;
 }
