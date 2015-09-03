@@ -10,7 +10,7 @@ int main (){
    cout << "Introduce el numero mas grande\n";
    cin >> y;
 
-  while (x <= y-1) {
+  while (x < y) {
     (z = z + x);
     (x = x+1 ); }
   cout << "Total= " << (z+x) << "\n";
