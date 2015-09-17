@@ -13,10 +13,12 @@ int main (){
 
   }
   cout << "Total= " << factorial << "\n";
-  cout << "¿Quieres calcular un nuevo numero?";
+  cout << "¿Quieres calcular un nuevo numero?\n";
   cin >> resp;
 
-  if (resp == 'si'){
+  while (resp == 's'){
+
+    if (resp == 's'){
     int x, factorial = 1;
     char resp;
      cout << "Calculo del numero factorial" << endl;
@@ -28,9 +30,13 @@ int main (){
 
     }
     cout << "Total= " << factorial << "\n";
+    cout << "¿Quieres calcular un nuevo numero?\n";
+    cin >> resp;
   }
-
-  if (resp == 'no'){
-    return 0;}
+}
+  if (resp == 'n'){
+    cout << "Gracias" << endl;
+  }
+  return 0;
 
 }

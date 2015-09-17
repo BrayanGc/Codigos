@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BC2C38B6-2CD4-4D93-895A-D8E3B035E4C8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BBF0D9B57FAA32CD168EAA43907D8B51A36D0E4A</key>
+		<string>https://github.com/BrayanGc/Codigos.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>helloworld/helloworld.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BBF0D9B57FAA32CD168EAA43907D8B51A36D0E4A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/BrayanGc/Codigos.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BBF0D9B57FAA32CD168EAA43907D8B51A36D0E4A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BBF0D9B57FAA32CD168EAA43907D8B51A36D0E4A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Codigos</string>
+		</dict>
+	</array>
+</dict>
+</plist>
