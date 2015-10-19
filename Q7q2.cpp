@@ -3,7 +3,7 @@
 #include <math.h>
 using namespace std;
 
-void isPalindrome(string palindrome){
+void isPalindrome(string palindrome, int x){
   string prueba;
   while (x>0){
   char letter = palindrome [x-1];
