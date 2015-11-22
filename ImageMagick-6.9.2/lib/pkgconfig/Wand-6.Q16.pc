@@ -1,0 +1,14 @@
+prefix=$MAGICK_HOME
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/ImageMagick-6
+includearchdir=$MAGICK_HOME/include/ImageMagick-6
+libname=MagickWand-6.Q16
+ 
+Name: MagickWand
+Description: MagickCore - C API for ImageMagick (ABI Q16)
+Version: 6.9.2
+Requires: MagickCore
+Libs: -L${libdir} -l${libname}
+Libs.private: -L${libdir} -l${libname}  -ljbig -L/opt/local/lib -llcms2  -ltiff -L/opt/local/lib -lfreetype  -ljpeg   -L/opt/local/lib -lpng16   -L/opt/local/lib -ldjvulibre  -L/opt/local/lib -lfftw3   -L/opt/local/lib -lfontconfig -lfreetype  -lwebp       -L/opt/local/lib -llzma  -lbz2 -L/opt/local/lib -lIlmImf -lz -lImath -lHalf -lIex -lIlmThread  -L/opt/local/lib -lopenjp2  -L/opt/local/lib -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -lcairo   -L/opt/local/lib -lxml2   -L/opt/local/lib -lz   -lm      -lm
+Cflags: -I${includearchdir} -I${includedir} -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16
